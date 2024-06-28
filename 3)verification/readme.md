@@ -1,2 +1,2 @@
 # Verification methodlogy 
--[uvm](uvm/readme.md)
+- [uvm](uvm/readme.md)
