@@ -20,6 +20,7 @@ https://edaplayground.com/x/PfEG
   ![image](https://github.com/user-attachments/assets/42458a30-0e95-459a-85ba-7e85a7e09f2e)
 - step3:```Verdi -ssf dump.vcd -nologo ```
   <img width="677" alt="image" src="https://github.com/user-attachments/assets/52961719-a9bc-4a0f-a503-6c148ea84ae0">
+  - as you see in pic sum and carry shows pervoius processed data.
 
 
 ## synthesis
