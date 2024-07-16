@@ -1,3 +1,4 @@
+https://edaplayground.com/x/PfEG
 ## Specification
 -alu control
   - 0	0  ->	alu is completely off
