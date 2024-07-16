@@ -19,7 +19,8 @@ https://edaplayground.com/x/PfEG
 - step 2: ```./simv -Verdi```
   ![image](https://github.com/user-attachments/assets/42458a30-0e95-459a-85ba-7e85a7e09f2e)
 - step3:```Verdi -ssf dump.vcd -nologo ```
-  ![image](https://github.com/user-attachments/assets/60b46290-c7fd-476c-8c0c-d414d850d773)
+  <img width="677" alt="image" src="https://github.com/user-attachments/assets/52961719-a9bc-4a0f-a503-6c148ea84ae0">
+
 
 ## synthesis
 
