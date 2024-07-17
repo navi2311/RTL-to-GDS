@@ -1,4 +1,5 @@
-## ICC FP STEPs
+##  FP STEPs
+```ICC2```
 - step 1 : setting the library path
   ```set PDK_PATH ./../ref```
   - set the PDK path .
