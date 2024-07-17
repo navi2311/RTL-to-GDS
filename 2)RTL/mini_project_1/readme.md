@@ -31,7 +31,7 @@ https://edaplayground.com/x/PfEG
   3. define_design_lib WORK -path ./WORK
   ```
   - [Sourcing the Setup Script](referencen/1.png)
-  - [Setting RTL Source Files & Defining the Design Library]()
+  - [Setting RTL Source Files & Defining the Design Library](referencen/2.png)
 - step2:
   ```
   4. analyze -format verilog ${RTL_SOURCE_FILES}
@@ -40,8 +40,9 @@ https://edaplayground.com/x/PfEG
 
   ```
   - NOTE:```common_setup.tcl change DESGIN_NAME is not set to current desgin ```
-  - command 4 is used to parse the Verilog RTL source files and prepare them for elaboration. It checks the syntax and creates intermediate representations of the design.
-  - command 6  is used to create a complete, detailed representation of the design from the analyzed RTL files. It resolves module instances, connects ports, and checks for any inconsistencies in the design hierarchy. After elaboration, the design is ready for optimization and synthesis.
+  - [command 4 is used to parse the Verilog RTL source files and prepare them for elaboration. It checks the syntax and creates intermediate representations of the design](referencen/2.png)
+  - [command 6  is used to create a complete, detailed representation of the design from the analyzed RTL files. It resolves module instances, connects ports, and checks for any inconsistencies in the design hierarchy. After elaboration, the design is ready for optimization and synthesis.](referencen/4.png)
+
 - step3:
   ```
   compile
@@ -49,8 +50,12 @@ https://edaplayground.com/x/PfEG
 
 
   ```
+  - [complie the code](referencen/6.png)
+  - <img width="814" alt="10" src="https://github.com/user-attachments/assets/9ca2d56d-051a-4301-9803-b78d59bf2dbc">
+
 -step 4: ```  report_timing```
   - met slack with clock period 10 now.
+  - <img width="764" alt="11" src="https://github.com/user-attachments/assets/a065de6a-ac29-4003-bfb1-26fe0e8d139d">
   - Now when  clock period to 1 in sdc file slack is violated.
   - <img width="832" alt="image" src="https://github.com/user-attachments/assets/4dbd2ca3-f3a9-4570-a577-95611d089afe">
 
