@@ -60,6 +60,7 @@ https://edaplayground.com/x/PfEG
   - <img width="832" alt="image" src="https://github.com/user-attachments/assets/4dbd2ca3-f3a9-4570-a577-95611d089afe">
 
 -step4:```write -format verilog -hierarchy -output${RESULTS_DIR}${DCRM_FINAL_VERILOG_OUTPUT_FILE}```
+## floorplan
 
 
 
