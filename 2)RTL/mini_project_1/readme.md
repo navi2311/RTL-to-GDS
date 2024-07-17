@@ -30,7 +30,7 @@ https://edaplayground.com/x/PfEG
   2. set RTL_SOURCE_FILES ./../rtl/miniproject/my_alu.v
   3. define_design_lib WORK -path ./WORK
   ```
-  - [Sourcing the Setup Script]()
+  - [Sourcing the Setup Script](referencen/1.png)
   - [Setting RTL Source Files & Defining the Design Library]()
 - step2:
   ```
