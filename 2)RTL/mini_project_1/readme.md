@@ -26,11 +26,13 @@ https://edaplayground.com/x/PfEG
 ## synthesis
 - step1:
   ```
-  source -echo -verbose ./rm_setup/dc_setup.tcl
-  set RTL_SOURCE_FILES ./../rtl/miniproject/my_alu.v
-  define_design_lib WORK -path ./WORK
+  1. source -echo -verbose ./rm_setup/dc_setup.tcl
+  2. set RTL_SOURCE_FILES ./../rtl/miniproject/my_alu.v
+  3. define_design_lib WORK -path ./WORK
   ```
-  ![image](https://github.com/user-attachments/assets/b0b59431-b815-4221-81ed-d22618335f14)
+  - [source the basic setup files](<img width="936" alt="image" src="https://github.com/user-attachments/assets/e55f9c01-d183-4bb0-a96c-179c1ae94480">
+)
+
 
 
 
