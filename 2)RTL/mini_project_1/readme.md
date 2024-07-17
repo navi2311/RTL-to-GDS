@@ -56,8 +56,7 @@ https://edaplayground.com/x/PfEG
 -step 4: ```  report_timing```
   - met slack with clock period 10 now.
   - <img width="764" alt="11" src="https://github.com/user-attachments/assets/a065de6a-ac29-4003-bfb1-26fe0e8d139d">
-  - Now when  clock period to 1 in sdc file slack is violated.
-  - <img width="832" alt="image" src="https://github.com/user-attachments/assets/4dbd2ca3-f3a9-4570-a577-95611d089afe">
+
 
 -step4:```write -format verilog -hierarchy -output${RESULTS_DIR}${DCRM_FINAL_VERILOG_OUTPUT_FILE}```
 ## floorplan
