@@ -30,9 +30,25 @@ https://edaplayground.com/x/PfEG
   2. set RTL_SOURCE_FILES ./../rtl/miniproject/my_alu.v
   3. define_design_lib WORK -path ./WORK
   ```
-  - [source the basic setup files](<img width="936" alt="image" src="https://github.com/user-attachments/assets/e55f9c01-d183-4bb0-a96c-179c1ae94480">
-)
+  - [Sourcing the Setup Script]()
+  - [Setting RTL Source Files & Defining the Design Library]()
+- step2:
+  ```
+  4. analyze -format verilog ${RTL_SOURCE_FILES}
+  5. echo ${DESIGN_NAME}
+  6. elaborate ${DESIGN_NAME}
 
+  ```
+  - NOTE:```common_setup.tcl change DESGIN_NAME is not set to current desgin ```
+  - command 4 is used to parse the Verilog RTL source files and prepare them for elaboration. It checks the syntax and creates intermediate representations of the design.
+  - command 6  is used to create a complete, detailed representation of the design from the analyzed RTL files. It resolves module instances, connects ports, and checks for any inconsistencies in the design hierarchy. After elaboration, the design is ready for optimization and synthesis.
+- step3:
+  ```
+  compile
+  compile_ultra
+
+
+  ```
 
 
 
