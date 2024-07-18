@@ -13,21 +13,20 @@
     ```create_lib -ref_lib $PDK_PATH/lib/ndm/saed32rvt_c.ndm <name_of_the_library>```
 
 
-#step 3 : read the verilog gate-level netlist
+- step 3 : read the verilog gate-level netlist
 
 
-#read_verilog {./../DC/results/full_adder.mapped.v} -library <name_of_the_library> -design full_adder -top full_adder
-read_verilog {./../DC/results/register.mapped.v} -library <name_of_the_library> -design register -top register
-check_design -checks {dp_pre_floorplan}
+```read_verilog {./../DC/results/register.mapped.v} -library <name_of_the_library> -design register -top register```
+```check_design -checks {dp_pre_floorplan}```
 
-######################################
-# FloorPlan Creation
-####################################
+- step4:```FLOOR PLAN```
 #scenario 1
 ####################i################
         initialize_floorplan
         set_individual_pin_constraints -ports [get_ports] -sides 3
+        NOTE:```we constraints pins and ports like which siide to place i/o pins/pins,spacing between each pins/ports```
         place_pins -self
+        -
         create_placement -floorplan
 
         save_block
