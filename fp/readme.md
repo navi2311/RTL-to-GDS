@@ -20,11 +20,10 @@
 ```check_design -checks {dp_pre_floorplan}```
 
 - step4:```FLOOR PLAN```
-#scenario 1
-####################i################
+  ```
         initialize_floorplan
         set_individual_pin_constraints -ports [get_ports] -sides 3
-        NOTE:```we constraints pins and ports like which siide to place i/o pins/pins,spacing between each pins/ports```
+        
         place_pins -self
         -
         create_placement -floorplan
@@ -34,7 +33,9 @@
 
         close_block
         close_lib
-
+```
+- we constraints pins and ports like which siide to place i/o pins/pins,spacing between each pins/ports
+- 
 ############################
 ###### To open lib and block
 ############################
