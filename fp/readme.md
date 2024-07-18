@@ -18,6 +18,7 @@
 
 #read_verilog {./../DC/results/full_adder.mapped.v} -library <name_of_the_library> -design full_adder -top full_adder
 read_verilog {./../DC/results/register.mapped.v} -library <name_of_the_library> -design register -top register
+check_design -checks {dp_pre_floorplan}
 
 ######################################
 # FloorPlan Creation
