@@ -7,4 +7,5 @@ Warning:  ./../rtl/pipeline_r_i_sw_lw/register.v:36: signed to unsigned assignme
 
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/c500f5f8-500c-4fc7-b06f-5b4eb53b8c09">
 
+<img width="381" alt="image" src="https://github.com/user-attachments/assets/dc3f3b73-ed99-4725-bf8d-337e843b0be9">
 
