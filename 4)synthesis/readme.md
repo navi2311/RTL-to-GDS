@@ -40,3 +40,5 @@ mkdir -p /ve/ti_home/ti1_31/intership_Jun-Jul_2024/DC/results/pipeline_clock_5/
 
 
 ```
+<img width="665" alt="image" src="https://github.com/user-attachments/assets/3020f2a9-fdf8-4e70-a0a6-c85337bc4ed0">
+for clock period 5
