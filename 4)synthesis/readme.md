@@ -5,3 +5,6 @@ why
 
 Warning:  ./../rtl/pipeline_r_i_sw_lw/register.v:36: signed to unsigned assignment occurs. (VER-318)
 
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/c500f5f8-500c-4fc7-b06f-5b4eb53b8c09">
+
+
